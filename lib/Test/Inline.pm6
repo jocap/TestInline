@@ -1,6 +1,6 @@
 unit module Inline;
 
-my Sub @tests;
+our @tests;
 
 #| Marks a sub as being for internal test purposes
 multi sub trait_mod:<is>(Sub $sub, :$test!) is export {
